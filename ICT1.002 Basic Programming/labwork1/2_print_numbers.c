@@ -3,8 +3,8 @@
 int main()
 {
     // print var type INT
-    int integer_num = 10;
-    printf("Integer: %d\n", integer_num);
+    int num = 10;
+    printf("Integer: %d\n", num);
 
     // print var type FLOAT
     float floating_point_num = 10.4f;
