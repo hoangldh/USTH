@@ -1,5 +1,7 @@
 #include<stdio.h>
-int main(){
+
+int main()
+{
     // print var type INT
     int integer_num = 10;
     printf("Integer: %d\n", integer_num);

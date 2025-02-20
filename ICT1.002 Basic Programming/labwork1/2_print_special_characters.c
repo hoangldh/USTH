@@ -1,5 +1,7 @@
 #include<stdio.h>
-int main(){
+
+int main()
+{
     /* print special characters*/
     printf("Newline: \n Let's go");
     printf("Vertical return: \v Let's go");

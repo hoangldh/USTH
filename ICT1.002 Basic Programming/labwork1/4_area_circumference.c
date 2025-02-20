@@ -2,7 +2,8 @@
 
 #define PI 3.141592653589793
 
-int main(){
+int main()
+{
     /* calculate AREA and CIRCUMFERENCE with PREASSIGNED radius */
     int radius1 = 10;
     float area1 = (float)(PI * radius1 * radius1);

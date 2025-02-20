@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+int main()
+{
     // prompt for a, b, c
     printf("We have the equation 3a - b^3 - 2sqrt(c).\n");
     float a, b, c;

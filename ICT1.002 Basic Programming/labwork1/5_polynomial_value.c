@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+int main()
+{
     // set up polynomial
     float x = 0;
     int a = 1;
