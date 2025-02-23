@@ -19,7 +19,7 @@ int main()
         return 1;
     }
 
-    printf("Calculating the linear equations:\n");
+    printf("\nCalculating the linear equations:\n");
     printf("\t%dx + %dy = %d\n", a, b, c); printf("\t%dx + %dy = %d\n", d, e, f);
     Sleep(1000);
 
