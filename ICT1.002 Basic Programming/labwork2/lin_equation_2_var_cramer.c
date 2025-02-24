@@ -2,7 +2,7 @@
 
 #define MAX_LENGTH 100
 
-int main()
+int main() // Cramer's rule
 {
     // prompt for paramters
     printf("Enter parameters for the system of linear equations:\n");
@@ -11,7 +11,11 @@ int main()
 
     char parameter_list[MAX_LENGTH]; int a, b, c, d, e, f;
     fgets(parameter_list, MAX_LENGTH, stdin);
-    sscanf(parameter_list, "%d %d %d %d %d %d", &a, &b, &c, &d, &e, &f);
+    if (sscanf(parameter_list, "%d %d %d %d %d %d", &a, &b, &c, &d, &e, &f) != 6)
+    {
+        printf("Invalid input. Six parameters needed.");
+        return 1;
+    }
 
     // calculate determinant
     float D = (a * e) - (b * d);
@@ -38,4 +42,6 @@ int main()
     printf("Solution:\n");
     printf("\tx = %.2f\n", x);
     printf("\ty = %.2f", y);
+
+    return 0;
 }
