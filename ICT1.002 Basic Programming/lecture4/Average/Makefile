@@ -12,4 +12,4 @@ average_implementation.o: average_implementation.c average_header.h
 	gcc -c average_implementation.c -o average_implementation.o
 
 clean:
-	del /F /Q *.o average.exe 2>nul || exit 0
+	del /F /Q *.o 2>nul || exit 0

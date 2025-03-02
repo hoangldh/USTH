@@ -1,6 +1,6 @@
-#ifndef AVERAGE_H
-#define AVERAGE_H
+#ifndef AVERAGE_HEADER_H
+#define AVERAGE__HEADER_H
 
-float average(int num1, int num2);
+float average(float num1, float num2);
 
 #endif
