@@ -11,13 +11,11 @@ int main()
     };
 
     // find all divisors of input
-    int divisor_arr[sizeof(nat_num)] = {}; int i;
-    for (i = 1; i <= nat_num; i++)
+    int i; for (i = 1; i <= nat_num; i++)
     {
-        if (nat_num % i == 0) divisor_arr[i - 1] = i;
-    }
-    for (i = 0; i <= sizeof(divisor_arr); i++)
-    {
-        printf("%d", divisor_arr[i]);
+        if (nat_num % i == 0)
+        {
+            printf(" %d", i);
+        }
     }
 }
