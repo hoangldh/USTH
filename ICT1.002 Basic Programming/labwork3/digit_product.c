@@ -17,7 +17,7 @@ int main()
     {
         digit = num % 10;
         product *= digit;
-        num /= 10; printf("%d\n", num);
+        num /= 10; // printf("%d\n", num);
     }
     printf("Product of the digits: %d", product);
 }
