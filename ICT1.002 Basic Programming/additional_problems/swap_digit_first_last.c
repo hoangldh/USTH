@@ -13,7 +13,7 @@ int main()
 
     // swap first and last digits
     char* num_in_char = itoa(num);
-    int first_digit = num_in_char[0]; printf("First digit: %d", first_digit);
+    int first_digit = num_in_char[0]; printf("First digit: %d\n", first_digit);
     int last_digit = num_in_char[-1]; printf("Last digit: %d", last_digit);
     
 }
