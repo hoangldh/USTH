@@ -9,5 +9,5 @@ int main()
     // access array using ptr
     printf("Enter index of a[]: ");
     int index; scanf("%d", &index);
-    printf("a[%d] = %d", index, pa[index]);
+    printf("a[%d] = %d", index, *(pa + index));
 }
