@@ -20,6 +20,8 @@ void index_search(int array[], int size, int num)
     }
 }
 
+
+
 int main()
 {
     int array[] = {8, 3, 9, 10, 22, 3, 7, 0};

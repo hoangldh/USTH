@@ -8,6 +8,6 @@ int gcd(int a, int b)
 
 int lcd(int a, int b)
 {
-    // if (a == b) return a;
+    if (a == b) return a;
     return ((a * b) / gcd(a,b));
 }
